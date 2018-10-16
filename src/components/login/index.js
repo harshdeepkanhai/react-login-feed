@@ -37,7 +37,7 @@ class Login extends Component {
 			 			onChange={(e)=>this.handlePasswordChange(e)}/> 
 			 	</div>
 			 	<div className="loginButtonContainer">
-			 		<button onClick={() => this.handleLogin()}>Login</button>
+			 		<button onClick={() => this.handleLogin()} className="button">Login</button>
 			 	</div>										
  			</div>
  			</div>
